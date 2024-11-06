@@ -31,14 +31,10 @@ Navigate to the project directory.
 
 Install dependencies:
 
-bash
-Copy code
 npm install
 Running the Development Server
 To start the development server, run:
 
-bash
-Copy code
 npm run dev
 The app should now be accessible at http://localhost:5173.
 
