@@ -1,0 +1,17 @@
+.error-message {
+    visibility: hidden; 
+    line-height: 1.5;   
+    color: var(--danger);        
+    transition: visibility 0.3s, opacity 0.3s ease-in-out;
+  }
+  
+  .error-message.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .error-message.hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  

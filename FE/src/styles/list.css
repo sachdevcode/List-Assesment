@@ -1,0 +1,44 @@
+.list {
+    margin-top: 1rem;
+    padding: 0;
+    list-style: none;
+    height: 65dvh;
+    overflow: auto;
+  }
+  
+  .list-item {
+    padding: 0.5rem;
+    background-color: var(--input-bg-color);
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .list-item:hover {
+    transform: translateY(-3px);
+  }
+
+  .skeleton-item {
+    padding: 0.5rem;
+    height: 1.5rem;
+    background-color: var(--input-bg-color);
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 0.5rem;
+    animation: shimmer 1.5s infinite linear;
+    overflow: hidden;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #f0f0f0;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
+  
